@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="estilo01.css">
+    <script src="calculadora01.js"></script>
+
+</head>
+<body>
+    <div class="calculadora">
+        <div class="visor">
+            <input type="text" id="visor" placeholder="0">
+        </div>
+        <div class="botoes">
+            <input type="button" value="1" onclick="unirvalores(1);">
+            <input type="button" value="2" onclick="unirvalores(2);">
+            <input type="button" value="3" onclick="unirvalores(3);">
+            <input type="button" value="+" onclick="unirvalores('+');">
+            <input type="button" value="4" onclick="unirvalores(4);">
+            <input type="button" value="5" onclick="unirvalores(5);">
+            <input type="button" value="6" onclick="unirvalores(6);">
+            <input type="button" value="-" onclick="unirvalores('-');">
+            <input type="button" value="7" onclick="unirvalores(7);">
+            <input type="button" value="8" onclick="unirvalores(8);">
+            <input type="button" value="9" onclick="unirvalores(9);">
+            <input type="button" value="/" onclick="unirvalores('/');">
+            <input type="button" value="0" onclick="unirvalores(0);">
+            <input type="button" value="c" class="limpar" onclick="limpar();">
+            <input type="button" value="=" class="igual" onclick="calcular();">
+            <input type="button" value="*" onclick="unirvalores('*');"> 
+            
+        </div>
+    </div>
+</body>
+</html>
